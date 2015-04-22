@@ -1,7 +1,5 @@
 *.gem
 .sass-cache
-bootstrap.css
-bootstrap-responsive.css
 Gemfile.lock
 *.gemfile.lock
 .rvmrc
@@ -17,4 +15,3 @@ test/dummy_rails/log/*.log
 test/dummy_rails/public/assets/
 .DS_Store
 node_modules
-.sass-cache
