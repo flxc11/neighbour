@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="neighbour">
+	<meta name="author" content="15674822@qq.com">
+	<title>提交问题</title>
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+	<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<div class="container">
+
+      <form class="form-signin" action="index.html">
+        <h2 class="form-signin-heading">提交问题</h2>
+        <label for="inputEmail" class="sr-only">问题标题</label>
+        <input type="text" id="inputEmail" class="form-control" placeholder="问题标题" required autofocus>
+        <label for="inputPassword" class="sr-only">问题内容</label>
+        <textarea name="" id="" class="form-control textarea" style="height:100px;" placeholder="问题内容"></textarea>
+        <h2 class="form-signin-heading">选择类别</h2>
+        <div class="btn-group" data-toggle="buttons">
+          <label class="btn btn-primary">
+            <input type="radio" name="options" id="option1" autocomplete="off"> 咨询类
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="options" id="option2" autocomplete="off"> 投诉类
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="options" id="option2" autocomplete="off"> 建议类
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="options" id="option2" autocomplete="off"> 求助类
+          </label>
+        </div>
+        <h2 class="form-signin-heading">选择平台</h2>
+        <div class="btn-group" data-toggle="buttons">
+          <label class="btn btn-primary">
+            <input type="radio" name="options" id="option1" autocomplete="off"> 鹿鸣问政
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="options" id="option2" autocomplete="off"> 鹿城区网上法律援助中心
+          </label>
+        </div>
+        <h2 class="form-signin-heading">选择状态</h2>
+        <div class="btn-group" data-toggle="buttons">
+          <label class="btn btn-primary">
+            <input type="radio" name="options" id="option1" autocomplete="off"> 未办结
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="options" id="option2" autocomplete="off"> 已办结
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="options" id="option2" autocomplete="off"> 办结中
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block mt10" type="submit">提交</button>
+      </form>
+
+    </div> <!-- /container -->
+    <script>
+    $().button('toggle');
+    </script>
+</body>
+</html>

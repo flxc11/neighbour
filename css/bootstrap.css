@@ -1739,13 +1739,13 @@ textarea {
 
 /* line 48, ../sass/bootstrap/_scaffolding.scss */
 a {
-  color: #337ab7;
+  color: #333333;
   text-decoration: none;
 }
 /* line 52, ../sass/bootstrap/_scaffolding.scss */
 a:hover, a:focus {
   color: #23527c;
-  text-decoration: underline;
+  text-decoration: none;
 }
 /* line 58, ../sass/bootstrap/_scaffolding.scss */
 a:focus {
@@ -8649,4 +8649,11 @@ button.close {
 .form-signin {
   padding: 0;
   max-width: 100%;
+}
+
+/* line 59, ../sass/bootstrap/_web.scss */
+.textarea {
+  width: 100%;
+  overflow: hidden;
+  margin: 10px 0;
 }
