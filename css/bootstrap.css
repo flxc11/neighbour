@@ -8694,3 +8694,9 @@ header span {
 .mb10 {
   margin-bottom: 10px;
 }
+
+/* line 91, ../sass/bootstrap/_web.scss */
+.tel, .name {
+  float: right;
+  margin-left: 10px;
+}
