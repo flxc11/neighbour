@@ -8664,12 +8664,16 @@ header {
   background: #337ab7;
   color: #fff;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   position: relative;
   margin: 0 -15px;
 }
+/* line 72, ../sass/bootstrap/_web.scss */
+header span {
+  font-size: 16px;
+}
 
-/* line 73, ../sass/bootstrap/_web.scss */
+/* line 76, ../sass/bootstrap/_web.scss */
 .span-back {
   color: #fff;
   position: absolute;
@@ -8677,16 +8681,16 @@ header {
   top: 12px;
 }
 
-/* line 79, ../sass/bootstrap/_web.scss */
+/* line 82, ../sass/bootstrap/_web.scss */
 .top-img {
   padding-top: 10px;
 }
-/* line 81, ../sass/bootstrap/_web.scss */
+/* line 84, ../sass/bootstrap/_web.scss */
 .top-img img {
   max-width: 100%;
 }
 
-/* line 85, ../sass/bootstrap/_web.scss */
+/* line 88, ../sass/bootstrap/_web.scss */
 .mb10 {
   margin-bottom: 10px;
 }

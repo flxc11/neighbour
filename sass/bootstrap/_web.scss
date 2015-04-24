@@ -66,9 +66,12 @@ header {
   background: #337ab7;
   color: #fff;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   position: relative;
   margin: 0 -15px;
+  span {
+    font-size: 16px;
+  }
 }
 .span-back {
   color: #fff;
