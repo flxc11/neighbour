@@ -8700,3 +8700,8 @@ header span {
   float: right;
   margin-left: 10px;
 }
+
+/* line 95, ../sass/bootstrap/_web.scss */
+.fanwei {
+  display: block;
+}
